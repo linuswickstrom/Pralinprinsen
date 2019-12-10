@@ -1,0 +1,112 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12, 1fr));
+  grid-template-rows: auto auto;
+  grid-gap: 0px;
+  margin-bottom: 5vh;
+}
+.list{
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(1, -1fr)
+  height: 100px;
+  width: 90%;
+}
+
+img{
+  padding-left: 3vw;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.logga:hover{
+  transform: scale(1);
+}
+
+
+
+header{
+  color: white;
+  grid-column: 1/-1;
+  background-color: black;
+  word-spacing: 20px;
+  font-size: 15px;
+  padding: 10px;
+
+}
+.logga{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-left: 0px;
+}
+
+@@media screen and (max width: px) {
+
+}
+  .meny{
+    grid-column: 1/-1;
+    background-color: pink;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 45px;
+    padding-top: 2px;
+  }
+
+  .Ahlgrensbilar{
+    word-spacing: normal;
+    padding-left: 75px;
+    font-size: 22px;
+  }
+
+  .Ahlgrensbilar:hover{
+    transform: scale(1.1)
+  }
+
+  .produkt {
+    border: 1px;
+    display: inline;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: auto;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #huvudmeny {
+
+    display: grid;
+    grid-row: 1/2;
+
+  }
+
+.info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+  grid-gap: 8vw;
+}
+
+.bilarinfo {
+
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+}
+
+.Godisbilder{
+  border: 1px solid
+}
+
+.överstruken{
+  color: red;
+}
+
+.nyheter{
+  text-decoration: none;
+  color:inherit;
+
+}
