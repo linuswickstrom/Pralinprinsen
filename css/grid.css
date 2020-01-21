@@ -1,7 +1,7 @@
 .container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12, 1fr));
-  grid-template-rows: auto auto;
+  grid-template-rows: repeat(5, auto);
   grid-gap: 0px;
   margin-bottom: 5vh;
 }
@@ -51,8 +51,9 @@ header{
     background-color: pink;
     text-align: center;
     font-size: 30px;
-    word-spacing: 45px;
+    word-spacing: 50px;
     padding-top: 2px;
+    color: pink;
   }
 
   .Ahlgrensbilar{
@@ -62,7 +63,7 @@ header{
   }
 
   .Ahlgrensbilar:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
 
   .produkt {
@@ -108,5 +109,10 @@ header{
 .nyheter{
   text-decoration: none;
   color:inherit;
+  margin: 5px;
+  display: inline-block;
+}
 
+.cred{
+  grid-row: 5/6;
 }

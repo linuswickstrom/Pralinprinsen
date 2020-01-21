@@ -22,3 +22,24 @@
   text-align: center;
   color: white;
 }
+
+.meny{
+  border-style: ridge;
+  border-color: yellow;
+  background-color: #ED638D;
+  border-width: 12px;
+  border-radius: 0px;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+
+.cred{
+  border-style:inset;
+  color: white;
+  border-color: black;
+  background-color: black;
+  font-size: 15px;
+  text-align: right;
+  margin: none;
+}
