@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <html lang="se" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Pralinprinsen Nyheter</title>
-  </head>
-  <body>
-    <div class="container">
 
-      <header id="huvudmeny">
-        <img class="logga" src="img/LogoMakr_7CDVWO.png" height="150px"/>
-        <span>
-          <a href="https://docs.google.com/document/d/1QCweDHUZQkO-nYA3eVhJmLH8pCcUzvUMxfzwt4auOGI/">SUPPORT</a>
-          <a href="https://docs.google.com/document/d/1SumJrE6IQqYdLSoZrebNeRp_mq_IoN8ukPemYVXxHts/">OM_OSS</a>
-          <a href="https://docs.google.com/forms/d/1fASo8zDXwjrzxvEjN1lM84v1gFDVA820w4YTzMbjFaE/edit">ÖNSKEMÅL</a>
-        </span>
-      </header>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Pralinprinsen Nyheter</title>
+</head>
 
-      <nav class="meny"> NYHETER GODIS CHOKLAD LÖSGODIS SNACKS DRYCK KAMPANJER</nav>
+<body>
+  <div class="container">
 
-      <section>
-        <ol class="list">
-          <li>
-            <a href="file:///Users/linuswickstrom/Desktop/Webbutveckling/index%20(Ahlgrens%20bilar).html">
-            <img src="img/bilar3.png" alt="Ahlgrens bilar 10 kronor" height="200px;"/>
+    <header id="huvudmeny">
+      <img class="logga" src="img/LogoMakr_7CDVWO.png" height="150px" />
+      <span>
+        <a href="https://docs.google.com/document/d/1QCweDHUZQkO-nYA3eVhJmLH8pCcUzvUMxfzwt4auOGI/">SUPPORT</a>
+        <a href="https://docs.google.com/document/d/1SumJrE6IQqYdLSoZrebNeRp_mq_IoN8ukPemYVXxHts/">OM_OSS</a>
+        <a href="https://docs.google.com/forms/d/1fASo8zDXwjrzxvEjN1lM84v1gFDVA820w4YTzMbjFaE/edit">ÖNSKEMÅL</a>
+        <a href="index.html"> HEM </a>
+      </span>
+    </header>
+
+    <nav class="meny"> <a href="index%20(NYHETER).html" class="nyheter">NYHETER</a>
+      <p class="nyheter">GODIS</p>
+      <p class="nyheter">CHOKLAD</p>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropdown nyheter">VARUMÄRKEN</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="nocco.html">Nocco</a>
+          <a href="estrella.html">Estrella</a>
+          <a href="marabou.html">Marabou</a>
+        </div>
+      </div>
+      <p class="nyheter">SNACKS</p>
+      <p class="nyheter">DRYCK</p>
+      <p class="nyheter">KAMPANJER</p>
+    </nav>
+
+    <section>
+      <ol class="list">
+        <li>
+          <a href="file:///Users/linuswickstrom/Desktop/Webbutveckling/index%20(Ahlgrens%20bilar).html">
+            <img src="img/bilar3.png" alt="Ahlgrens bilar 10 kronor" height="200px;" />
           </a>
-            <h2 class="Ahlgrensbilar">Ahlgrens bilar 10:-<strike class="överstruken"> 19:- </strike> </h2>
-          </li>
-          <li>
-            <img src="img/nocco.png" alt="Nocco 24x350 milliliter 349 kronor" height="200px"/>
-            <h2 class="Ahlgrensbilar" alt=>Nocco 24x350ml 349:-</h2>
-          </li>
-          <li>
-            <img src="img/v.png" height="200px"/>
-            <h2 class="Ahlgrensbilar"></h2>
-          </li>
-          <li>
-            <img src="img/v.png" height="200px"/>
-            <h2 class="Ahlgrensbilar"></h2>
-          </li>
-        </ol>
-      </section>
+          <h2 class="Ahlgrensbilar">Ahlgrens bilar 10:-<strike class="överstruken"> 19:- </strike> </h2>
+        </li>
+        <li>
+          <img src="img/nocco.png" alt="Nocco 24x350 milliliter 349 kronor" height="200px" />
+          <h2 class="Ahlgrensbilar" alt=>Nocco 24x350ml 349:-</h2>
+        </li>
+        <li>
+          <img src="img/v.png" height="200px" />
+          <h2 class="Ahlgrensbilar"></h2>
+        </li>
+        <li>
+          <img src="img/v.png" height="200px" />
+          <h2 class="Ahlgrensbilar"></h2>
+        </li>
+      </ol>
+    </section>
 
-      <h2 class="cred"> Created my free logo at LogoMakr.com </h2>
+    <h2 class="cred"> Created my free logo at LogoMakr.com </h2>
 
-    </div>
-  </body>
+  </div>
+  <script src="js.js"></script>
+</body>
+
 </html>

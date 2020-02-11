@@ -1,29 +1,29 @@
-.list{
+.list {
   list-style-type: none;
-  word-spacing:20px;
+  word-spacing: 20px;
 }
 
-.Specifiksida{
+.Specifiksida {
   font-size: 40px;
   display: block;
 }
 
-.Bilartext{
+.Bilartext {
   display: inline;
   font-size: 25px;
 }
 
-.kundkorg{
+.kundkorg {
   border-style: ridge;
   border-color: blue;
-  background-color: rgb(50,90,255);
+  background-color: rgb(50, 90, 255);
   border-width: 10px;
   border-radius: 20px;
   text-align: center;
   color: white;
 }
 
-.meny{
+.meny {
   border-style: ridge;
   border-color: yellow;
   background-color: #ED638D;
@@ -32,14 +32,30 @@
   height: auto;
   text-align: center;
   color: white;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.cred{
-  border-style:inset;
+.cred {
+  border-style: inset;
   color: white;
   border-color: black;
   background-color: black;
   font-size: 15px;
   text-align: right;
   margin: none;
+}
+
+.nyheter {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown 
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
 }

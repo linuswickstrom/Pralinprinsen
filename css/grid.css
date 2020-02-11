@@ -1,90 +1,85 @@
-.container{
+.container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12, 1fr));
   grid-template-rows: repeat(5, auto);
   grid-gap: 0px;
   margin-bottom: 5vh;
 }
-.list{
+
+.list {
   display: inline-grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(1, -1fr)
-  height: 100px;
+  grid-template-rows: repeat(1, -1fr) height: 100px;
   width: 90%;
 }
 
-img{
+img {
   padding-left: 3vw;
 }
 
-img:hover{
+img:hover {
   transform: scale(1.1);
 }
 
-.logga:hover{
+.logga:hover {
   transform: scale(1);
 }
 
-
-
-header{
+header {
   color: white;
   grid-column: 1/-1;
   background-color: black;
   word-spacing: 20px;
   font-size: 15px;
   padding: 10px;
-
 }
-.logga{
+
+.logga {
   margin-right: auto;
   margin-left: auto;
   display: block;
   padding-left: 0px;
 }
 
-@@media screen and (max width: px) {
+@@media screen and (max width: px) {}
 
+.meny {
+  grid-column: 1/-1;
+  background-color: pink;
+  text-align: center;
+  font-size: 30px;
+  word-spacing: 40px;
+  padding-top: 2px;
+  color: pink;
 }
-  .meny{
-    grid-column: 1/-1;
-    background-color: pink;
-    text-align: center;
-    font-size: 30px;
-    word-spacing: 50px;
-    padding-top: 2px;
-    color: pink;
-  }
 
-  .Ahlgrensbilar{
-    word-spacing: normal;
-    padding-left: 75px;
-    font-size: 22px;
-  }
+.Ahlgrensbilar {
+  word-spacing: normal;
+  padding-left: 75px;
+  font-size: 22px;
+}
 
-  .Ahlgrensbilar:hover{
-    transform: scale(1.1);
-  }
+.Ahlgrensbilar:hover {
+  transform: scale(1.1);
+}
 
-  .produkt {
-    border: 1px;
-    display: inline;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    height: auto;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+.produkt {
+  border: 1px;
+  display: inline;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: auto;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
-  #huvudmeny {
+#huvudmeny {
+  display: grid;
+  grid-row: 1/2;
+}
 
-    display: grid;
-    grid-row: 1/2;
-
-  }
-
-.info{
+.info {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row: 1fr;
@@ -92,27 +87,72 @@ header{
 }
 
 .bilarinfo {
-
   grid-column: 2/3;
   grid-row: 1/2;
-
 }
 
-.Godisbilder{
+.Godisbilder {
   border: 1px solid
 }
 
-.överstruken{
+.överstruken {
   color: red;
 }
 
-.nyheter{
+.nyheter {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
   margin: 5px;
   display: inline-block;
 }
 
-.cred{
+.cred {
   grid-row: 5/6;
+}
+
+/* Dropdown Button */
+.dropdown {
+  background-color: #ED638D;
+  padding: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropdown:hover, .dropbtn:focus {
+  background-color: #ED448D;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
 }
