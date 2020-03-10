@@ -34,12 +34,6 @@ header {
   padding: 10px;
 }
 
-.logga {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  padding-left: 0px;
-}
 
 @@media screen and (max width: px) {}
 
@@ -53,11 +47,7 @@ header {
   color: pink;
 }
 
-.Ahlgrensbilar {
-  word-spacing: normal;
-  padding-left: 75px;
-  font-size: 22px;
-}
+
 
 .Ahlgrensbilar:hover {
   transform: scale(1.1);
@@ -84,15 +74,6 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-row: 1fr;
   grid-gap: 8vw;
-}
-
-.bilarinfo {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-.Godisbilder {
-  border: 1px solid
 }
 
 .överstruken {

@@ -53,9 +53,29 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-.dropdown 
+.dropdown{
   font-size: 26px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   color: white;
+}
+
+.Ahlgrensbilar {
+  word-spacing: normal;
+  text-align: center;
+  font-size: 22px;
+}
+
+.bild {
+  max-width: 80%;
+  height: 60%;
+}
+
+.logga {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-left: 0px;
+  width: 7%;
+  Height: auto;
 }
