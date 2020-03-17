@@ -68,7 +68,7 @@
 
 .bild {
   max-width: 80%;
-  height: 60%;
+  height: 240px;
 }
 
 .logga {
@@ -78,4 +78,9 @@
   padding-left: 0px;
   width: 7%;
   Height: auto;
+}
+
+.överstruken {
+  color: red;
+  text-decoration: line-through;
 }
