@@ -3,16 +3,19 @@
   word-spacing: 20px;
 }
 
+/* reglerar storlek på produktnamnet och priset på Ahgrens Bilarsidan */
 .Specifiksida {
   font-size: 40px;
   display: block;
 }
 
+/* reglerar texten om ahlgrens bilar */
 .Bilartext {
   display: inline;
   font-size: 25px;
 }
 
+/* stylar kundkorgknappen på Ahlgrens Bilarsidan */
 .kundkorg {
   border-style: ridge;
   border-color: blue;
@@ -23,6 +26,8 @@
   color: white;
 }
 
+
+/* stylar menyn, färg, stil, typsnitt etc */
 .meny {
   border-style: ridge;
   border-color: yellow;
@@ -37,6 +42,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+/* stylar den bordern där jag ger credit till logomakr.com för loggan jag gjorde */
 .cred {
   border-style: inset;
   color: white;
@@ -47,12 +53,14 @@
   margin: none;
 }
 
+/* stylar ordet "nyheter" i nav:en för att den ska se ut som övriga ord i nav:en */
 .nyheter {
   font-size: 26px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
 
+/* stylar ordet "dropdown" i nav:en för att den ska se ut som övriga ord i nav:en */
 .dropdown{
   font-size: 26px;
   font-weight: bold;
@@ -60,17 +68,20 @@
   color: white;
 }
 
+/* styla och reglerar texten under produktbilderna */
 .Ahlgrensbilar {
   word-spacing: normal;
   text-align: center;
   font-size: 22px;
 }
 
+/* reglerar storlek på bilderna på produkterna */
 .bild {
   max-width: 80%;
   height: 240px;
 }
 
+/* ändrar storlek och position på logga */
 .logga {
   margin-right: auto;
   margin-left: auto;
@@ -83,4 +94,11 @@
 .överstruken {
   color: red;
   text-decoration: line-through;
+}
+
+.nyheter {
+  text-decoration: none;
+  color: inherit;
+  margin: 5px;
+  display: inline-block;
 }

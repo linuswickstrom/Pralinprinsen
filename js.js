@@ -1,3 +1,5 @@
+// följande kod skapar den dropdownmeny som finns i nav:en med med namnet "varumärken"
+
 var state = 0;
 
 function myFunction() {
